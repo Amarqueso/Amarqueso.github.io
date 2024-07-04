@@ -10,7 +10,7 @@
 
 /* Estilos gerais */
 body {
-    background-color: #3d3d3d;
+    background-color: #2d3436;
     color: #333;
     line-height: 1.6;
 }
@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 800px;
     margin: 20px auto;
-    background: #4b4b4b;
+    background: #636e72;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -41,6 +41,12 @@ header img {
 header h1 {
     font-size: 2.5em;
     margin: 10px 0;
+    color: #ffffff;
+}
+
+header h2 {
+    font-size: 1em;
+    margin: 5px 0;
     color: #ffffff;
 }
 
