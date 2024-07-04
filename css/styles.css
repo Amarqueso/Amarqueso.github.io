@@ -1,0 +1,103 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos gerais */
+body {
+    background-color: #1e272e;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #d2dae2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Lista de habilidades e escolaridade */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Experiência profissional */
+.job {
+    margin-bottom: 10px;
+}
+
+.job h3 {
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.job p {
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
